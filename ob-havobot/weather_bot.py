@@ -256,7 +256,7 @@ def admin(update, context):
 
 # def main():
 #######################################################################################
-updater = Updater(token='5564916011:AAHSsEh9JF_WRFeK4dE44ifzDopsQZOWo-k',use_context=True)
+updater = Updater(token='TOKEN_NAME',use_context=True)
 conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
         states={
