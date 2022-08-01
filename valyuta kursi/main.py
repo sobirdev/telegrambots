@@ -193,7 +193,7 @@ def change(up,ct):
 
     
 def main():
-    updater = Updater("5598607839:AAFwEa_RVx1OhwWBws6Fo40rf0LCD8Q7bfk")
+    updater = Updater("TOKEN_NAME")
     dp= updater.dispatcher
     conv_hand= ConversationHandler(
         entry_points=[CommandHandler('start',start)],
