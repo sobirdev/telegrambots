@@ -1,7 +1,7 @@
 from telegram.ext import ConversationHandler,CallbackQueryHandler
 from methods import *
 
-update=Updater(token='5509271062:AAHb_9cfMYs_uQtR8ATPH8WGgT7V_UDfaLk', use_context=True)
+update=Updater(token='TOKEN_NAME', use_context=True)
 dispatcher=update.dispatcher
 
 
